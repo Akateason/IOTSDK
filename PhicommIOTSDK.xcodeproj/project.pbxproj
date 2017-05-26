@@ -162,13 +162,13 @@
 		8FE9C5381ED6BDB0003DA221 /* PhicommIOTSDK */ = {
 			isa = PBXGroup;
 			children = (
-				8FE9C56F1ED6EFFE003DA221 /* Vender */,
 				8FE9C53C1ED6BDB0003DA221 /* AppDelegate.h */,
 				8FE9C53D1ED6BDB0003DA221 /* AppDelegate.m */,
 				8FE9C53F1ED6BDB0003DA221 /* ViewController.h */,
 				8FE9C5401ED6BDB0003DA221 /* ViewController.m */,
 				8FE9C5AC1ED6F312003DA221 /* Views */,
 				8FE9C59A1ED6F107003DA221 /* LOTLink */,
+				8FE9C56F1ED6EFFE003DA221 /* Vender */,
 				8FE9C5421ED6BDB0003DA221 /* Main.storyboard */,
 				8FE9C5451ED6BDB0003DA221 /* Assets.xcassets */,
 				8FE9C5471ED6BDB0003DA221 /* LaunchScreen.storyboard */,

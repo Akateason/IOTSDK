@@ -32,7 +32,6 @@
         case TypeOf_IOTLinkFactory_SmartConfigEsptouch:
         {
             return self.smartConfigLink.wifiInfo.ssid ;
-            
         }
             break;
             
