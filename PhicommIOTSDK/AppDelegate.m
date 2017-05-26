@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "IOTLinkFactory.h"
 
 @interface AppDelegate ()
 
@@ -15,8 +16,13 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     // Override point for customization after application launch.
+    // prepare IOTLinkFactory
+    [[IOTLinkFactory shareInstance] prepareWithType:TypeOf_IOTLinkFactory_SmartConfigEsptouch] ;
+    
+    
     return YES;
 }
 

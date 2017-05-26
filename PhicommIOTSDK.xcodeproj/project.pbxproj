@@ -15,6 +15,26 @@
 		8FE9C5491ED6BDB0003DA221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE9C5471ED6BDB0003DA221 /* LaunchScreen.storyboard */; };
 		8FE9C5541ED6BDB1003DA221 /* PhicommIOTSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5531ED6BDB1003DA221 /* PhicommIOTSDKTests.m */; };
 		8FE9C55F1ED6BDB1003DA221 /* PhicommIOTSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C55E1ED6BDB1003DA221 /* PhicommIOTSDKUITests.m */; };
+		8FE9C5AF1ED6F312003DA221 /* IOTLinkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5AE1ED6F312003DA221 /* IOTLinkView.m */; };
+		8FE9C5B51ED6F582003DA221 /* IOTLinkBase+FetchNetInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5B21ED6F582003DA221 /* IOTLinkBase+FetchNetInfo.m */; };
+		8FE9C5B61ED6F582003DA221 /* IOTLinkBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5B41ED6F582003DA221 /* IOTLinkBase.m */; };
+		8FE9C5D41ED6F5C5003DA221 /* ESP_ByteUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5B91ED6F5C5003DA221 /* ESP_ByteUtil.m */; };
+		8FE9C5D51ED6F5C5003DA221 /* ESP_CRC8.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5BB1ED6F5C5003DA221 /* ESP_CRC8.m */; };
+		8FE9C5D61ED6F5C5003DA221 /* ESP_NetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5BD1ED6F5C5003DA221 /* ESP_NetUtil.m */; };
+		8FE9C5D71ED6F5C5003DA221 /* ESP_WifiUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5BF1ED6F5C5003DA221 /* ESP_WifiUtil.m */; };
+		8FE9C5D81ED6F5C5003DA221 /* ESPDataCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5C11ED6F5C5003DA221 /* ESPDataCode.m */; };
+		8FE9C5D91ED6F5C5003DA221 /* ESPDatumCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5C31ED6F5C5003DA221 /* ESPDatumCode.m */; };
+		8FE9C5DA1ED6F5C5003DA221 /* ESPGuideCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5C51ED6F5C5003DA221 /* ESPGuideCode.m */; };
+		8FE9C5DB1ED6F5C5003DA221 /* ESPTouchGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5C81ED6F5C5003DA221 /* ESPTouchGenerator.m */; };
+		8FE9C5DC1ED6F5C5003DA221 /* ESPTouchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5CA1ED6F5C5003DA221 /* ESPTouchResult.m */; };
+		8FE9C5DD1ED6F5C5003DA221 /* ESPTouchTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5CC1ED6F5C5003DA221 /* ESPTouchTask.m */; };
+		8FE9C5DE1ED6F5C5003DA221 /* ESPTouchTaskParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5CE1ED6F5C5003DA221 /* ESPTouchTaskParameter.m */; };
+		8FE9C5DF1ED6F5C5003DA221 /* ESPUDPSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5D01ED6F5C5003DA221 /* ESPUDPSocketClient.m */; };
+		8FE9C5E01ED6F5C5003DA221 /* ESPUDPSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5D21ED6F5C5003DA221 /* ESPUDPSocketServer.m */; };
+		8FE9C5E41ED6F5FD003DA221 /* SmartConfigLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5E31ED6F5FD003DA221 /* SmartConfigLink.m */; };
+		8FE9C5E61ED7AEF2003DA221 /* IOTLinkView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FE9C5E51ED7AEF2003DA221 /* IOTLinkView.xib */; };
+		8FE9C5E91ED7B5AD003DA221 /* IOTLinkFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5E81ED7B5AD003DA221 /* IOTLinkFactory.m */; };
+		8FE9C5EC1ED7FB1D003DA221 /* NetWifiInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5EB1ED7FB1D003DA221 /* NetWifiInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +71,47 @@
 		8FE9C55A1ED6BDB1003DA221 /* PhicommIOTSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhicommIOTSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE9C55E1ED6BDB1003DA221 /* PhicommIOTSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhicommIOTSDKUITests.m; sourceTree = "<group>"; };
 		8FE9C5601ED6BDB1003DA221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE9C5AD1ED6F312003DA221 /* IOTLinkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOTLinkView.h; sourceTree = "<group>"; };
+		8FE9C5AE1ED6F312003DA221 /* IOTLinkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOTLinkView.m; sourceTree = "<group>"; };
+		8FE9C5B11ED6F582003DA221 /* IOTLinkBase+FetchNetInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IOTLinkBase+FetchNetInfo.h"; sourceTree = "<group>"; };
+		8FE9C5B21ED6F582003DA221 /* IOTLinkBase+FetchNetInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IOTLinkBase+FetchNetInfo.m"; sourceTree = "<group>"; };
+		8FE9C5B31ED6F582003DA221 /* IOTLinkBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOTLinkBase.h; sourceTree = "<group>"; };
+		8FE9C5B41ED6F582003DA221 /* IOTLinkBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOTLinkBase.m; sourceTree = "<group>"; };
+		8FE9C5B81ED6F5C5003DA221 /* ESP_ByteUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_ByteUtil.h; sourceTree = "<group>"; };
+		8FE9C5B91ED6F5C5003DA221 /* ESP_ByteUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_ByteUtil.m; sourceTree = "<group>"; };
+		8FE9C5BA1ED6F5C5003DA221 /* ESP_CRC8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_CRC8.h; sourceTree = "<group>"; };
+		8FE9C5BB1ED6F5C5003DA221 /* ESP_CRC8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_CRC8.m; sourceTree = "<group>"; };
+		8FE9C5BC1ED6F5C5003DA221 /* ESP_NetUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_NetUtil.h; sourceTree = "<group>"; };
+		8FE9C5BD1ED6F5C5003DA221 /* ESP_NetUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_NetUtil.m; sourceTree = "<group>"; };
+		8FE9C5BE1ED6F5C5003DA221 /* ESP_WifiUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_WifiUtil.h; sourceTree = "<group>"; };
+		8FE9C5BF1ED6F5C5003DA221 /* ESP_WifiUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_WifiUtil.m; sourceTree = "<group>"; };
+		8FE9C5C01ED6F5C5003DA221 /* ESPDataCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPDataCode.h; sourceTree = "<group>"; };
+		8FE9C5C11ED6F5C5003DA221 /* ESPDataCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPDataCode.m; sourceTree = "<group>"; };
+		8FE9C5C21ED6F5C5003DA221 /* ESPDatumCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPDatumCode.h; sourceTree = "<group>"; };
+		8FE9C5C31ED6F5C5003DA221 /* ESPDatumCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPDatumCode.m; sourceTree = "<group>"; };
+		8FE9C5C41ED6F5C5003DA221 /* ESPGuideCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPGuideCode.h; sourceTree = "<group>"; };
+		8FE9C5C51ED6F5C5003DA221 /* ESPGuideCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPGuideCode.m; sourceTree = "<group>"; };
+		8FE9C5C61ED6F5C5003DA221 /* ESPTouchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchDelegate.h; sourceTree = "<group>"; };
+		8FE9C5C71ED6F5C5003DA221 /* ESPTouchGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchGenerator.h; sourceTree = "<group>"; };
+		8FE9C5C81ED6F5C5003DA221 /* ESPTouchGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchGenerator.m; sourceTree = "<group>"; };
+		8FE9C5C91ED6F5C5003DA221 /* ESPTouchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchResult.h; sourceTree = "<group>"; };
+		8FE9C5CA1ED6F5C5003DA221 /* ESPTouchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchResult.m; sourceTree = "<group>"; };
+		8FE9C5CB1ED6F5C5003DA221 /* ESPTouchTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchTask.h; sourceTree = "<group>"; };
+		8FE9C5CC1ED6F5C5003DA221 /* ESPTouchTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchTask.m; sourceTree = "<group>"; };
+		8FE9C5CD1ED6F5C5003DA221 /* ESPTouchTaskParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchTaskParameter.h; sourceTree = "<group>"; };
+		8FE9C5CE1ED6F5C5003DA221 /* ESPTouchTaskParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchTaskParameter.m; sourceTree = "<group>"; };
+		8FE9C5CF1ED6F5C5003DA221 /* ESPUDPSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPUDPSocketClient.h; sourceTree = "<group>"; };
+		8FE9C5D01ED6F5C5003DA221 /* ESPUDPSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPUDPSocketClient.m; sourceTree = "<group>"; };
+		8FE9C5D11ED6F5C5003DA221 /* ESPUDPSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPUDPSocketServer.h; sourceTree = "<group>"; };
+		8FE9C5D21ED6F5C5003DA221 /* ESPUDPSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPUDPSocketServer.m; sourceTree = "<group>"; };
+		8FE9C5D31ED6F5C5003DA221 /* ESPVersionMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPVersionMacro.h; sourceTree = "<group>"; };
+		8FE9C5E21ED6F5FD003DA221 /* SmartConfigLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartConfigLink.h; sourceTree = "<group>"; };
+		8FE9C5E31ED6F5FD003DA221 /* SmartConfigLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartConfigLink.m; sourceTree = "<group>"; };
+		8FE9C5E51ED7AEF2003DA221 /* IOTLinkView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IOTLinkView.xib; sourceTree = "<group>"; };
+		8FE9C5E71ED7B5AD003DA221 /* IOTLinkFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOTLinkFactory.h; path = IOTSDK/IOTLinkFactory.h; sourceTree = "<group>"; };
+		8FE9C5E81ED7B5AD003DA221 /* IOTLinkFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IOTLinkFactory.m; path = IOTSDK/IOTLinkFactory.m; sourceTree = "<group>"; };
+		8FE9C5EA1ED7FB1D003DA221 /* NetWifiInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWifiInfo.h; sourceTree = "<group>"; };
+		8FE9C5EB1ED7FB1D003DA221 /* NetWifiInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWifiInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +162,13 @@
 		8FE9C5381ED6BDB0003DA221 /* PhicommIOTSDK */ = {
 			isa = PBXGroup;
 			children = (
+				8FE9C56F1ED6EFFE003DA221 /* Vender */,
 				8FE9C53C1ED6BDB0003DA221 /* AppDelegate.h */,
 				8FE9C53D1ED6BDB0003DA221 /* AppDelegate.m */,
 				8FE9C53F1ED6BDB0003DA221 /* ViewController.h */,
 				8FE9C5401ED6BDB0003DA221 /* ViewController.m */,
+				8FE9C5AC1ED6F312003DA221 /* Views */,
+				8FE9C59A1ED6F107003DA221 /* LOTLink */,
 				8FE9C5421ED6BDB0003DA221 /* Main.storyboard */,
 				8FE9C5451ED6BDB0003DA221 /* Assets.xcassets */,
 				8FE9C5471ED6BDB0003DA221 /* LaunchScreen.storyboard */,
@@ -138,6 +202,94 @@
 				8FE9C5601ED6BDB1003DA221 /* Info.plist */,
 			);
 			path = PhicommIOTSDKUITests;
+			sourceTree = "<group>";
+		};
+		8FE9C56F1ED6EFFE003DA221 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				8FE9C5B71ED6F5C5003DA221 /* SmartConfig_Esptouch */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		8FE9C59A1ED6F107003DA221 /* LOTLink */ = {
+			isa = PBXGroup;
+			children = (
+				8FE9C5E71ED7B5AD003DA221 /* IOTLinkFactory.h */,
+				8FE9C5E81ED7B5AD003DA221 /* IOTLinkFactory.m */,
+				8FE9C5B01ED6F582003DA221 /* baseModel */,
+				8FE9C5E11ED6F5CE003DA221 /* smartConfigEsptouch */,
+			);
+			name = LOTLink;
+			sourceTree = "<group>";
+		};
+		8FE9C5AC1ED6F312003DA221 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8FE9C5AD1ED6F312003DA221 /* IOTLinkView.h */,
+				8FE9C5AE1ED6F312003DA221 /* IOTLinkView.m */,
+				8FE9C5E51ED7AEF2003DA221 /* IOTLinkView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8FE9C5B01ED6F582003DA221 /* baseModel */ = {
+			isa = PBXGroup;
+			children = (
+				8FE9C5B31ED6F582003DA221 /* IOTLinkBase.h */,
+				8FE9C5B41ED6F582003DA221 /* IOTLinkBase.m */,
+				8FE9C5B11ED6F582003DA221 /* IOTLinkBase+FetchNetInfo.h */,
+				8FE9C5B21ED6F582003DA221 /* IOTLinkBase+FetchNetInfo.m */,
+				8FE9C5EA1ED7FB1D003DA221 /* NetWifiInfo.h */,
+				8FE9C5EB1ED7FB1D003DA221 /* NetWifiInfo.m */,
+			);
+			name = baseModel;
+			path = IOTSDK/baseModel;
+			sourceTree = "<group>";
+		};
+		8FE9C5B71ED6F5C5003DA221 /* SmartConfig_Esptouch */ = {
+			isa = PBXGroup;
+			children = (
+				8FE9C5B81ED6F5C5003DA221 /* ESP_ByteUtil.h */,
+				8FE9C5B91ED6F5C5003DA221 /* ESP_ByteUtil.m */,
+				8FE9C5BA1ED6F5C5003DA221 /* ESP_CRC8.h */,
+				8FE9C5BB1ED6F5C5003DA221 /* ESP_CRC8.m */,
+				8FE9C5BC1ED6F5C5003DA221 /* ESP_NetUtil.h */,
+				8FE9C5BD1ED6F5C5003DA221 /* ESP_NetUtil.m */,
+				8FE9C5BE1ED6F5C5003DA221 /* ESP_WifiUtil.h */,
+				8FE9C5BF1ED6F5C5003DA221 /* ESP_WifiUtil.m */,
+				8FE9C5C01ED6F5C5003DA221 /* ESPDataCode.h */,
+				8FE9C5C11ED6F5C5003DA221 /* ESPDataCode.m */,
+				8FE9C5C21ED6F5C5003DA221 /* ESPDatumCode.h */,
+				8FE9C5C31ED6F5C5003DA221 /* ESPDatumCode.m */,
+				8FE9C5C41ED6F5C5003DA221 /* ESPGuideCode.h */,
+				8FE9C5C51ED6F5C5003DA221 /* ESPGuideCode.m */,
+				8FE9C5C61ED6F5C5003DA221 /* ESPTouchDelegate.h */,
+				8FE9C5C71ED6F5C5003DA221 /* ESPTouchGenerator.h */,
+				8FE9C5C81ED6F5C5003DA221 /* ESPTouchGenerator.m */,
+				8FE9C5C91ED6F5C5003DA221 /* ESPTouchResult.h */,
+				8FE9C5CA1ED6F5C5003DA221 /* ESPTouchResult.m */,
+				8FE9C5CB1ED6F5C5003DA221 /* ESPTouchTask.h */,
+				8FE9C5CC1ED6F5C5003DA221 /* ESPTouchTask.m */,
+				8FE9C5CD1ED6F5C5003DA221 /* ESPTouchTaskParameter.h */,
+				8FE9C5CE1ED6F5C5003DA221 /* ESPTouchTaskParameter.m */,
+				8FE9C5CF1ED6F5C5003DA221 /* ESPUDPSocketClient.h */,
+				8FE9C5D01ED6F5C5003DA221 /* ESPUDPSocketClient.m */,
+				8FE9C5D11ED6F5C5003DA221 /* ESPUDPSocketServer.h */,
+				8FE9C5D21ED6F5C5003DA221 /* ESPUDPSocketServer.m */,
+				8FE9C5D31ED6F5C5003DA221 /* ESPVersionMacro.h */,
+			);
+			path = SmartConfig_Esptouch;
+			sourceTree = "<group>";
+		};
+		8FE9C5E11ED6F5CE003DA221 /* smartConfigEsptouch */ = {
+			isa = PBXGroup;
+			children = (
+				8FE9C5E21ED6F5FD003DA221 /* SmartConfigLink.h */,
+				8FE9C5E31ED6F5FD003DA221 /* SmartConfigLink.m */,
+			);
+			name = smartConfigEsptouch;
+			path = IOTSDK/smartConfigEsptouch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FE9C5491ED6BDB0003DA221 /* LaunchScreen.storyboard in Resources */,
+				8FE9C5E61ED7AEF2003DA221 /* IOTLinkView.xib in Resources */,
 				8FE9C5461ED6BDB0003DA221 /* Assets.xcassets in Resources */,
 				8FE9C5441ED6BDB0003DA221 /* Main.storyboard in Resources */,
 			);
@@ -277,8 +430,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FE9C5411ED6BDB0003DA221 /* ViewController.m in Sources */,
+				8FE9C5D81ED6F5C5003DA221 /* ESPDataCode.m in Sources */,
+				8FE9C5D41ED6F5C5003DA221 /* ESP_ByteUtil.m in Sources */,
+				8FE9C5D91ED6F5C5003DA221 /* ESPDatumCode.m in Sources */,
+				8FE9C5B51ED6F582003DA221 /* IOTLinkBase+FetchNetInfo.m in Sources */,
+				8FE9C5D71ED6F5C5003DA221 /* ESP_WifiUtil.m in Sources */,
+				8FE9C5E01ED6F5C5003DA221 /* ESPUDPSocketServer.m in Sources */,
+				8FE9C5DB1ED6F5C5003DA221 /* ESPTouchGenerator.m in Sources */,
+				8FE9C5EC1ED7FB1D003DA221 /* NetWifiInfo.m in Sources */,
+				8FE9C5DD1ED6F5C5003DA221 /* ESPTouchTask.m in Sources */,
+				8FE9C5AF1ED6F312003DA221 /* IOTLinkView.m in Sources */,
+				8FE9C5D51ED6F5C5003DA221 /* ESP_CRC8.m in Sources */,
 				8FE9C53E1ED6BDB0003DA221 /* AppDelegate.m in Sources */,
+				8FE9C5D61ED6F5C5003DA221 /* ESP_NetUtil.m in Sources */,
+				8FE9C5DA1ED6F5C5003DA221 /* ESPGuideCode.m in Sources */,
+				8FE9C5B61ED6F582003DA221 /* IOTLinkBase.m in Sources */,
+				8FE9C5E41ED6F5FD003DA221 /* SmartConfigLink.m in Sources */,
+				8FE9C5E91ED7B5AD003DA221 /* IOTLinkFactory.m in Sources */,
+				8FE9C5DF1ED6F5C5003DA221 /* ESPUDPSocketClient.m in Sources */,
+				8FE9C5DE1ED6F5C5003DA221 /* ESPTouchTaskParameter.m in Sources */,
 				8FE9C53B1ED6BDB0003DA221 /* main.m in Sources */,
+				8FE9C5DC1ED6F5C5003DA221 /* ESPTouchResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
